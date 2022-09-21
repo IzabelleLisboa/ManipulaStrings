@@ -12,7 +12,8 @@ public class TI827ManipulaStrings {
         do{
             System.out.println(">>>>>>>>>>MENU<<<<<<<<<");
             System.out.println("1-Tamanho String");
-            System.out.println("1-Árvore de números");
+            System.out.println("2-Árvore de letras");
+             System.out.println("3-Capitalização de letras");
             
             System.out.println("0-Sair");
             System.out.println("Insira a opção pretendida");
@@ -21,7 +22,9 @@ public class TI827ManipulaStrings {
                 case 0: break;
                 case 1:
                   System.out.println("A string inserida tem:"+ ExerciciosStrings.contaCaracteres()+" caracteres"); break; 
-                case 2: ExerciciosStrings.arvoreCharAt(); break;   
+                case 2: ExerciciosStrings.arvoreCharAt(); break; 
+                case 3: ExerciciosStrings.capitalizaLetras(); break;                  
+ 
                 default:
                     System.out.println("Insira opção válida");
             }
